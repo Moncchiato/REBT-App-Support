@@ -18,25 +18,23 @@ This privacy notice for REBT Guide to Emotions ("**Company**," "**we**," "**us
 
 **SUMMARY OF KEY POINTS**
 
-***This summary provides key points from our privacy notice, but you can find out more details about any of these topics by clicking the link following each key point or by using our table of contents below to find the section you are looking for. You can also click ***[***here***](https://s3.us-east-2.amazonaws.com/rebt-emotions.breuss-labs.com/rebt-privacy-policy.html#toc)*** to go directly to our table of contents.***
+***This summary provides key points from our privacy notice.
 
-**What personal information do we process?** When you visit, use, or navigate our Services, we may process personal information depending on how you interact with REBT Guide to Emotions and the Services, the choices you make, and the products and features you use. Click [here](https://s3.us-east-2.amazonaws.com/rebt-emotions.breuss-labs.com/rebt-privacy-policy.html#personalinfo) to learn more.
+**What personal information do we process?** When you visit, use, or navigate our Services, we may process personal information depending on how you interact with REBT Guide to Emotions and the Services, the choices you make, and the products and features you use.
 
 **Do we process any sensitive personal information?** We do not process sensitive personal information.
 
 **Do we receive any information from third parties?** We do not receive any information from third parties.
 
-**How do we process your information?** We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with law. We may also process your information for other purposes with your consent. We process your information only when we have a valid legal reason to do so. Click [here](https://s3.us-east-2.amazonaws.com/rebt-emotions.breuss-labs.com/rebt-privacy-policy.html#infouse) to learn more.
+**How do we process your information?** We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with law. We may also process your information for other purposes with your consent. We process your information only when we have a valid legal reason to do so.
 
-**In what situations and with which parties do we share personal information?** We may share information in specific situations and with specific third parties. Click [here](https://s3.us-east-2.amazonaws.com/rebt-emotions.breuss-labs.com/rebt-privacy-policy.html#whoshare) to learn more.
+**In what situations and with which parties do we share personal information?** We may share information in specific situations and with specific third parties.
 
-**How do we keep your information safe?** We have organizational and technical processes and procedures in place to protect your personal information. However, no electronic transmission over the internet or information storage technology can be guaranteed to be 100% secure, so we cannot promise or guarantee that hackers, cybercriminals, or other unauthorized third parties will not be able to defeat our security and improperly collect, access, steal, or modify your information. Click [here](https://s3.us-east-2.amazonaws.com/rebt-emotions.breuss-labs.com/rebt-privacy-policy.html#infosafe) to learn more.
+**How do we keep your information safe?** We have organizational and technical processes and procedures in place to protect your personal information. However, no electronic transmission over the internet or information storage technology can be guaranteed to be 100% secure, so we cannot promise or guarantee that hackers, cybercriminals, or other unauthorized third parties will not be able to defeat our security and improperly collect, access, steal, or modify your information.
 
-**What are your rights?** Depending on where you are located geographically, the applicable privacy law may mean you have certain rights regarding your personal information. Click [here](https://s3.us-east-2.amazonaws.com/rebt-emotions.breuss-labs.com/rebt-privacy-policy.html#privacyrights) to learn more.
+**What are your rights?** Depending on where you are located geographically, the applicable privacy law may mean you have certain rights regarding your personal information.
 
 **How do you exercise your rights?** The easiest way to exercise your rights is by filling out our data subject request form available [here](https://app.termly.io/notify/f9010d21-3382-4743-958d-8c9180aa1424), or by contacting us. We will consider and act upon any request in accordance with applicable data protection laws.
-
-Want to learn more about what REBT Guide to Emotions does with any information we collect? Click [here](https://s3.us-east-2.amazonaws.com/rebt-emotions.breuss-labs.com/rebt-privacy-policy.html#toc) to review the notice in full.
 
 **1\. WHAT INFORMATION DO WE COLLECT?**
 
@@ -94,7 +92,7 @@ If you are located in the EEA or UK and you believe we are unlawfully processing
 
 If you are located in Switzerland, the contact details for the data protection authorities are available here: <https://www.edoeb.admin.ch/edoeb/en/home.html>.
 
-**Withdrawing your consent:** If we are relying on your consent to process your personal information, which may be express and/or implied consent depending on the applicable law, you have the right to withdraw your consent at any time. You can withdraw your consent at any time by contacting us by using the contact details provided in the section "[HOW CAN YOU CONTACT US ABOUT THIS NOTICE?](https://s3.us-east-2.amazonaws.com/rebt-emotions.breuss-labs.com/rebt-privacy-policy.html#contact)" below.
+**Withdrawing your consent:** If we are relying on your consent to process your personal information, which may be express and/or implied consent depending on the applicable law, you have the right to withdraw your consent at any time. You can withdraw your consent at any time by contacting us by using the contact details provided in the section "HOW CAN YOU CONTACT US ABOUT THIS NOTICE?" below.
 
 However, please note that this will not affect the lawfulness of the processing before its withdrawal nor, when applicable law allows, will it affect the processing of your personal information conducted in reliance on lawful processing grounds other than consent.
 
