@@ -1,0 +1,1807 @@
+{
+	"prompts": [
+		{
+			"id": "bothering_you",
+			"type": "multiSelect",
+			"minSelections": 1,
+			"randomizeOptions": true,
+			"text": "What has been bothering you?",
+			"options": [
+				{
+					"id": "work_professional_failure",
+					"text": "A Work/Professional Failure",
+					"opposite": "be successful at work",
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "personal_failure",
+					"text": "A Personal Failure",
+					"opposite": "always succeed",
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "loss",
+					"text": "A Loss",
+					"opposite": "not experience loss",
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "undeserved_burden",
+					"text": "An Undeserved Burden",
+					"opposite": "not have to deal with extra problems",
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "disapproval",
+					"text": "Disapproval",
+					"opposite": "be supported by others",
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "disrespect",
+					"text": "Disrespect",
+					"opposite": "respect me",
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "rejection",
+					"text": "Rejection",
+					"opposite": "accept and/or want me",
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "insufficient_recognition",
+					"text": "Insufficient recognition",
+					"opposite": "recognize me",
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "loss_of_status",
+					"text": "A loss of status",
+					"opposite": "have constant stability",
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "deprivation_from_pleasure",
+					"text": "Deprivation from pleasure",
+					"opposite": "be full of constant pleasure",
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "lack_of_comfort",
+					"text": "Lack of comfort",
+					"opposite": "always feel comfortable",
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "surplus_of_adversity",
+					"text": "Surplus of Adversity",
+					"opposite": "not have a great deal of challenges",
+					"isCorrect": true,
+					"validationMessage": null
+				}
+			]
+		},
+		{
+			"id": "am_i_doing_x",
+			"type": "informational",
+			"minSelections": 0,
+			"randomizeOptions": false,
+			"text": "Our world and the universe is an objective place, which means it has set rules and cares very little for life itself. Many of the things we know to be true are byproducts of our culture, not universal rules to abide by. We cannot directly control the outside world, only influence it ever so slightly as a small creature in a massive world. The one thing we can control is ourselves, our thoughts, our behaviors, and consequently our emotions. Let's assume a thought experiment and ask ourselves \"How am I making myself feel?\" What would be the answer?",
+			"options": []
+		},
+		{
+			"id": "emotional_consequences",
+			"type": "multiSelect",
+			"minSelections": 1,
+			"randomizeOptions": false,
+			"text": "What are the emotional consequences of beating yourself up over %previous_selections%? How do you feel about the events that are bothering you?",
+			"options": [
+				{
+					"id": "anger",
+					"text": "Anger",
+					"opposite": "OPPOSITE OF Anger",
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "anxiety",
+					"text": "Anxiety",
+					"opposite": "OPPOSITE OF Anxiety",
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "envy",
+					"text": "Envy",
+					"opposite": "OPPOSITE OF Envy",
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "depression",
+					"text": "Depression",
+					"opposite": "OPPOSITE OF Depression",
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "guilt",
+					"text": "Guilt",
+					"opposite": "OPPOSITE OF Guilt",
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "hurt",
+					"text": "Hurt",
+					"opposite": "OPPOSITE OF Hurt",
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "jealousy",
+					"text": "Jealousy",
+					"opposite": "OPPOSITE OF Jealousy",
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "shame",
+					"text": "Shame",
+					"opposite": "OPPOSITE OF Shame",
+					"isCorrect": true,
+					"validationMessage": null
+				}
+			]
+		},
+		{
+			"id": "you_are_more_than",
+			"type": "informational",
+			"minSelections": 0,
+			"randomizeOptions": false,
+			"text": "Language impacts the way we think about world, and thus live life. The English language is spoken in a way that uses many absolutes. Which leads us to think of the world from fixed points of view. Statement such as \"I am tall\", \"I am worthless\", \"I am beautiful\" lead us to think in absolutes, as if they are permanent statements. Our mind then believes certain attributes to be permanent, which can lead to a great deal of discomfort and sometimes emotional pain. In truth, few things are permanent in life; you shrink into old age, we cannot accurate judge the value of life in a universe governed by entropy where life is amongst most unique phenomenon, beauty is subjective and tends to change with time. Also, while you may be tall or short, beautiful or less attractive, these attributes do not define you. You are more than any characteristic used to describe you.",
+			"options": []
+		},
+		{
+			"id": "similar_beliefs",
+			"type": "informational",
+			"minSelections": 0,
+			"randomizeOptions": false,
+			"text": "That leads us to ask you if have any similar beliefs to the below statements?",
+			"options": []
+		},
+		{
+			"id": "describe_your_thoughts",
+			"type": "multiSelect",
+			"minSelections": 1,
+			"randomizeOptions": false,
+			"text": "How do you think about what has been bothering you?",
+			"options": [
+				{
+					"id": "awful_and_terrible",
+					"text": "It is awful, and terrible. This the end of my life. I cannot live like this...",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "cannot_bear_this",
+					"text": "I cannot bear this, can′t deal with this, it is too much to handle, too hard...",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "life_sucks",
+					"text": "Life sucks, its pointless, its shit...",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "negative_descriptors",
+					"text": "I/he/she/they is/are a loser, piece of shit, jerk, bitch, worthless, etc.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				}
+			]
+		},
+		{
+			"id": "examine_beliefs_influence_on_emotions",
+			"type": "informational",
+			"minSelections": 0,
+			"randomizeOptions": false,
+			"text": "With that in mind, let′s examine how these beliefs influence our emotions, and how our emotions shape the experience of reality.",
+			"options": []
+		},
+		{
+			"id": "examine_emotions_serve_purpose",
+			"type": "informational",
+			"minSelections": 0,
+			"randomizeOptions": false,
+			"text": "All of our emotions serve a purpose. They are meant to drive us make the best decision for ourselves given various situations. When emotions become unproductive, drawn out, and harmful, it becomes time for us to re-access pathways that lead to our emotions and what they are telling us. Lets explore a few examples before we touch upon your own.",
+			"options": []
+		},
+		{
+			"id": "learn_more_about_emotions",
+			"type": "multiSelect",
+			"minSelections": 0,
+			"randomizeOptions": false,
+			"text": "Select an emotion to learn more about what it might be informing you of",
+			"options": [
+				{
+					"id": "learn_more_about_emotions_guilt",
+					"text": "Guilt",
+					"opposite": null,
+					"isCorrect": false,
+					"validationMessage": "Feeling guilt may inform you that you've made a decision that can put your relationship(s) with others in jeopardy and encourage you to take action to mend your relationship(s). Whether its through apology or by endorsing other's beliefs."
+				},
+				{
+					"id": "learn_more_about_emotions_anger",
+					"text": "Anger",
+					"opposite": null,
+					"isCorrect": false,
+					"validationMessage": "Anger may tell you that something is being done that violates the rules of our culture/beliefs that we are not in agreement with. Anger could motivate you to make changes yourself or to try and influence others to change."
+				},
+				{
+					"id": "learn_more_about_emotions_depression",
+					"text": "Depression",
+					"opposite": null,
+					"isCorrect": false,
+					"validationMessage": "Experiencing depression may tell you that something in your life is unwanted and requires a great deal of change."
+				},
+				{
+					"id": "learn_more_about_emotions_hurt",
+					"text": "Hurt",
+					"opposite": null,
+					"isCorrect": false,
+					"validationMessage": "Feeling hurt can help bring your attention to an aspect of a situation that needs to be corrected."
+				},
+				{
+					"id": "learn_more_about_emotions_anxiety",
+					"text": "Anxiety",
+					"opposite": null,
+					"isCorrect": false,
+					"validationMessage": "Feeling anxious may tell you that there is an upcoming threat or challenge you need to prepare for."
+				},
+				{
+					"id": "learn_more_about_emotions_envy",
+					"text": "Envy",
+					"opposite": null,
+					"isCorrect": false,
+					"validationMessage": "Feeling envious may alert you there is something you'd like to add to your life that may be influenced by individual preferences or cultural standards."
+				},
+				{
+					"id": "learn_more_about_emotions_shame",
+					"text": "Shame",
+					"opposite": null,
+					"isCorrect": false,
+					"validationMessage": "Experiencing shame may inform you that there are people around you that do not approve of you due to large transgression on your part or a misperception on theirs. "
+				},
+				{
+					"id": "learn_more_about_emotions_jealousy",
+					"text": "Jealousy",
+					"opposite": null,
+					"isCorrect": false,
+					"validationMessage": "Experiencing jealousy may lead you to be alert that a role you fill in the life of another may be changing due to the presence of a person/object/tool."
+				}
+			]
+		},
+		{
+			"id": "examine_decision",
+			"type": "informational",
+			"minSelections": 0,
+			"randomizeOptions": false,
+			"text": "There is a decision(distinction) to be made for each emotion, even the ones that we do not like. All emotions can be experienced in healthy and unhealthy versions. This includes positive emotions like excitement and happiness, and negative emotions like anger and depression.",
+			"options": []
+		},
+		{
+			"id": "anger_healthy_unhealthy",
+			"type": "singleSelect",
+			"minSelections": 1,
+			"randomizeOptions": true,
+			"text": "Which is a healthy outcome when feeling Anger?",
+			"options": [
+				{
+					"id": "anger_healthy1",
+					"text": "Pushing to accomplish acts of social justice or acting to protect ourselves or a person/group/species.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "anger_unhealthy1",
+					"text": "Hurting or seeking to hurt or scare someone. Pushing for a desired change so strongly that we hurt ourselves or loved ones.",
+					"opposite": null,
+					"isCorrect": false,
+					"validationMessage": "That is the unhealthy choice."
+				}
+			]
+		},
+		{
+			"id": "anxiety_healthy_unhealthy",
+			"type": "singleSelect",
+			"minSelections": 1,
+			"randomizeOptions": true,
+			"text": "Which is a healthy outcome when feeling Anxiety?",
+			"options": [
+				{
+					"id": "anxiety_healthy1",
+					"text": "Preparing for an upcoming challenge.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "anxiety_unhealthy1",
+					"text": "Avoiding the source entirely, and thus remaining stagnant.",
+					"opposite": null,
+					"isCorrect": false,
+					"validationMessage": "That is the unhealthy choice."
+				}
+			]
+		},
+		{
+			"id": "envy_healthy_unhealthy",
+			"type": "singleSelect",
+			"minSelections": 1,
+			"randomizeOptions": true,
+			"text": "Which is a healthy outcome when feeling Envy?",
+			"options": [
+				{
+					"id": "envy_healthy1",
+					"text": "Driving yourself to work to gain the desired object or event.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "envy_unhealthy1",
+					"text": "Blaming the world for being unfair, and sabotaging the chance to gain the desired object or event.",
+					"opposite": null,
+					"isCorrect": false,
+					"validationMessage": "That is the unhealthy choice."
+				}
+			]
+		},
+		{
+			"id": "depression_healthy_unhealthy",
+			"type": "singleSelect",
+			"minSelections": 1,
+			"randomizeOptions": true,
+			"text": "Which is a healthy outcome when feeling Depression?",
+			"options": [
+				{
+					"id": "depression_healthy1",
+					"text": "Realizing your life has to be different and accepting change.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "depression_unhealthy1",
+					"text": "Giving up and giving in to the bad parts of life.",
+					"opposite": null,
+					"isCorrect": false,
+					"validationMessage": "That is the unhealthy choice."
+				}
+			]
+		},
+		{
+			"id": "guilt_healthy_unhealthy",
+			"type": "singleSelect",
+			"minSelections": 1,
+			"randomizeOptions": true,
+			"text": "Which is a healthy outcome when feeling Guilt?",
+			"options": [
+				{
+					"id": "guilt_healthy1",
+					"text": "Apologizing or adjusting your actions to repair a relationship.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "guilt_unhealthy1",
+					"text": "Distancing from the relationship, blaming yourself, feeling undeserving.",
+					"opposite": null,
+					"isCorrect": false,
+					"validationMessage": "That is the unhealthy choice."
+				}
+			]
+		},
+		{
+			"id": "hurt_healthy_unhealthy",
+			"type": "singleSelect",
+			"minSelections": 1,
+			"randomizeOptions": true,
+			"text": "Which is a healthy outcome when feeling Hurt?",
+			"options": [
+				{
+					"id": "hurt_healthy1",
+					"text": "Realizing something wasn′t right about the situation.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "hurt_unhealthy1",
+					"text": "Blaming/condemning yourself or another for what happened.",
+					"opposite": null,
+					"isCorrect": false,
+					"validationMessage": "That is the unhealthy choice."
+				}
+			]
+		},
+		{
+			"id": "jealousy_healthy_unhealthy",
+			"type": "singleSelect",
+			"minSelections": 1,
+			"randomizeOptions": true,
+			"text": "Which is a healthy outcome when feeling Jealousy?",
+			"options": [
+				{
+					"id": "jealousy_healthy1",
+					"text": "Putting in more effort to maintain your relationship.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "jealousy_unhealthy1",
+					"text": "Blaming the other person and acting intrusively and damaging the relationship.",
+					"opposite": null,
+					"isCorrect": false,
+					"validationMessage": "That is the unhealthy choice."
+				}
+			]
+		},
+		{
+			"id": "shame_healthy_unhealthy",
+			"type": "singleSelect",
+			"minSelections": 1,
+			"randomizeOptions": true,
+			"text": "Which is a healthy outcome when feeling Shame?",
+			"options": [
+				{
+					"id": "shame_healthy1",
+					"text": "Deciding if you want to apologize or change your behavior, or maintain behavior even though the larger group may express their disapproval.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "shame_unhealthy1",
+					"text": "Blaming/condemning yourself or distancing yourself from the group.",
+					"opposite": null,
+					"isCorrect": false,
+					"validationMessage": "That is the unhealthy choice."
+				}
+			]
+		},
+		{
+			"id": "make_emotions_health_and_beneficial",
+			"type": "informational",
+			"minSelections": 0,
+			"randomizeOptions": false,
+			"text": "So then, how can we make your emotions healthy and beneficial to life? How can we take the pain, the hurt, and transform it into growth and direction for a better life?",
+			"options": []
+		},
+		{
+			"id": "ask_ourselves",
+			"type": "informational",
+			"minSelections": 0,
+			"randomizeOptions": false,
+			"text": "We can ask ourselves...",
+			"options": [
+				{
+					"id": "evidence",
+					"text": "What evidence do I have that my beliefs about the situation are correct?",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "current_attitude",
+					"text": "Does my current attitude and beliefs regarding the situation help me function in life? Do they help cope with the situation? Or do they ultimately lead to unhealthy emotions and destructive behaviors?",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "attitude_beliefs",
+					"text": "Are my current attitude/beliefs entirely logical/rational, or do they come from expectations and demands I learned the world around me?",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				}
+			]
+		},
+		{
+			"id": "want_thoughts_to_be_healthy",
+			"type": "informational",
+			"minSelections": 0,
+			"randomizeOptions": false,
+			"text": "We want our thoughts to be healthy and productive, so that we might best adapt to our world to achieve what we want. The goal of this program is help you, the user, move towards your ultimate life goals the healthiest way possible with the least disturbance.",
+			"options": []
+		},
+		{
+			"id": "think_in_healthy_and_adaptive_ways",
+			"type": "informational",
+			"minSelections": 0,
+			"randomizeOptions": false,
+			"text": "With that being said, how can we think in healthy and adaptive ways while keeping in mind what we mentioned earlier about language′s impact on our life experience?",
+			"options": []
+		},
+		{
+			"id": "talking_in_absolutes",
+			"type": "informational",
+			"minSelections": 0,
+			"randomizeOptions": false,
+			"text": "As we mentioned previously, talking in absolutes, as we tend to do in the English language, leads us to think in absolutes. One way to lead ourselves to healthier emotions is to reframe how we speak/think about a situation.",
+			"options": []
+		},
+		{
+			"id": "replace_should_and_must_examples",
+			"type": "informational",
+			"minSelections": 0,
+			"randomizeOptions": false,
+			"text": "A good way to do this, is to replace the should's and must′s in our life with want's and prefer's. Lets take a look at a few examples to better understand what we mean.",
+			"options": []
+		},
+		{
+			"id": "simple_change_in_speech_or_thinking",
+			"type": "informational",
+			"minSelections": 0,
+			"randomizeOptions": false,
+			"text": "Do you think that making such a simple change in your speech or thinking could make difference?",
+			"options": []
+		},
+		{
+			"id": "explore_distinction",
+			"type": "informational",
+			"minSelections": 0,
+			"randomizeOptions": false,
+			"text": "Lets explore where each distinction may lead to.",
+			"options": []
+		},
+		{
+			"id": "explore_distinction_a_failure_personal_negative",
+			"type": "multiSelect",
+			"minSelections": 1,
+			"randomizeOptions": false,
+			"text": "\"I should be doing well.\" What type of thoughts might this lead for you?",
+			"options": [
+				{
+					"id": "explore_distinction_a_failure_personal_negative_1",
+					"text": "I am worthless/pathetic for not being able to perform at a certain level.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_a_failure_personal_negative_2",
+					"text": "I can put in more effort.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "explore_distinction_a_failure_personal_negative_3",
+					"text": "I am a lesser person than others who can do this well.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_a_failure_personal_negative_4",
+					"text": "Why am I like this? Am I deficient?",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_a_failure_personal_negative_5",
+					"text": "I can keep trying.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				}
+			]
+		},
+		{
+			"id": "explore_distinction_a_failure_personal_positive",
+			"type": "multiSelect",
+			"minSelections": 1,
+			"randomizeOptions": false,
+			"text": "\"I want to be doing well.\" What type of thoughts might this lead for you?",
+			"options": [
+				{
+					"id": "explore_distinction_a_failure_personal_positive_1",
+					"text": "I am worthless/pathetic for not being able to perform at a certain level.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_a_failure_personal_positive_2",
+					"text": "I can put in more effort.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "explore_distinction_a_failure_personal_positive_3",
+					"text": "I am a lesser person than others who are can do this well.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_a_failure_personal_positive_4",
+					"text": "Why am I like this? Am I deficient?",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_a_failure_personal_positive_5",
+					"text": "I can keep trying.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				}
+			]
+		},
+		{
+			"id": "explore_distinction_a_failure_work_negative",
+			"type": "multiSelect",
+			"minSelections": 1,
+			"randomizeOptions": false,
+			"text": "\"I should be doing well.\" What type of thoughts might this lead for you?",
+			"options": [
+				{
+					"id": "explore_distinction_a_failure_work_negative_1",
+					"text": "I am worthless/pathetic for not being able to perform at a certain level.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_a_failure_work_negative_2",
+					"text": "I can put in more effort.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "explore_distinction_a_failure_work_negative_3",
+					"text": "I am a lesser person than others who are can do this well.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_a_failure_work_negative_4",
+					"text": "Why am I like this? Am I deficient?",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_a_failure_work_negative_5",
+					"text": "I can keep trying.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				}
+			]
+		},
+		{
+			"id": "explore_distinction_a_failure_work_positive",
+			"type": "multiSelect",
+			"minSelections": 1,
+			"randomizeOptions": false,
+			"text": "\"I want to be doing well.\" What type of thoughts might this lead for you?",
+			"options": [
+				{
+					"id": "explore_distinction_a_failure_work_positive_1",
+					"text": "I am worthless/pathetic for not being able to perform at a certain level.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_a_failure_work_positive_2",
+					"text": "I can put in more effort.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "explore_distinction_a_failure_work_positive_3",
+					"text": "I am a lesser person than others who are can do this well.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_a_failure_work_positive_4",
+					"text": "Why am I like this? Am I deficient?",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_a_failure_work_positive_5",
+					"text": "I can keep trying.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				}
+			]
+		},
+		{
+			"id": "explore_distinction_disrespect_negative",
+			"type": "multiSelect",
+			"minSelections": 1,
+			"randomizeOptions": false,
+			"text": "\"They must show me respect.\" What type of thoughts might this lead for you?",
+			"options": [
+				{
+					"id": "explore_distinction_disrespect_negative_1",
+					"text": "I am worthless and not deserving of respect if they disrespect me.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_disrespect_negative_2",
+					"text": "Even though I want them to act respectfully, I recongnize that they do not have to behave as I want them to. Its up to me to assert myself and ask that they interact with me in a respectful way.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "explore_distinction_disrespect_negative_3",
+					"text": "If they cannot be respectful, that does not make them worthless people.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "explore_distinction_disrespect_negative_4",
+					"text": "They are worthless people for not having basic human decency.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_disrespect_negative_5",
+					"text": "I have worth as a person, whether they respect me or not.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				}
+			]
+		},
+		{
+			"id": "explore_distinction_disrespect_positive",
+			"type": "multiSelect",
+			"minSelections": 1,
+			"randomizeOptions": false,
+			"text": "\"I prefer they show me respect.\" What type of thoughts might this lead for you?",
+			"options": [
+				{
+					"id": "explore_distinction_disrespect_negative_1",
+					"text": "I am worthless and not deserving of respect if they disrespect me.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_disrespect_negative_2",
+					"text": "Even though I want them to act respectfully, I recognize that they do not have to behave as I want them to. Its up to me to assert myself and ask that they interact with me in a respectful way.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "explore_distinction_disrespect_negative_3",
+					"text": "If they cannot be respectful, that does not make them worthless people.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "explore_distinction_disrespect_negative_4",
+					"text": "They are worthless people for not having basic human decency.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_disrespect_negative_5",
+					"text": "I have worth as a person, whether they respect me or not.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				}
+			]
+		},
+		{
+			"id": "explore_distinction_deprivation_of_pleasure_negative",
+			"type": "multiSelect",
+			"minSelections": 1,
+			"randomizeOptions": false,
+			"text": "\"I should feel good every day.\" What type of thoughts might this lead for you?",
+			"options": [
+				{
+					"id": "explore_distinction_deprivation_of_pleasure_negative_1",
+					"text": "My life is horrible.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_deprivation_of_pleasure_negative_2",
+					"text": "Although this event is bad, its just unpleasant and not awful.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "explore_distinction_deprivation_of_pleasure_negative_3",
+					"text": "Life sucks, why live it?",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_deprivation_of_pleasure_negative_4",
+					"text": "My life is worthless and unbearable. Why don′t I feel good?",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_deprivation_of_pleasure_negative_5",
+					"text": "Although there is some hardship in my life, I can cope with it and move on.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "explore_distinction_deprivation_of_pleasure_negative_6",
+					"text": "My life should be easy and I must not have discomfort in life.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_deprivation_of_pleasure_negative_7",
+					"text": "Even though I want my life to be easy, I know I will face hardship and discomfort in life.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				}
+			]
+		},
+		{
+			"id": "explore_distinction_deprivation_of_pleasure_positive",
+			"type": "multiSelect",
+			"minSelections": 1,
+			"randomizeOptions": false,
+			"text": "\"I want to feel good every day.\" What type of thoughts might this lead for you?",
+			"options": [
+				{
+					"id": "explore_distinction_deprivation_of_pleasure_negative_1",
+					"text": "My life is horrible.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_deprivation_of_pleasure_negative_2",
+					"text": "Although this event is bad, its just unpleasant and not awful.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "explore_distinction_deprivation_of_pleasure_negative_3",
+					"text": "Life sucks, why live it?",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_deprivation_of_pleasure_negative_4",
+					"text": "My life is worthless and unbearable. Why don′t I feel good?",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_deprivation_of_pleasure_negative_5",
+					"text": "Although there is some hardship in my life, I can cope with it and move on.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "explore_distinction_deprivation_of_pleasure_negative_6",
+					"text": "My life should be easy and I must not have discomfort in life.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_deprivation_of_pleasure_negative_7",
+					"text": "Even though I want my life to be easy, I know I will face hardship and discomfort in life.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				}
+			]
+		},
+		{
+			"id": "explore_distinction_a_loss_negative",
+			"type": "multiSelect",
+			"minSelections": 1,
+			"randomizeOptions": false,
+			"text": "I should not have to lose aspects of my life. What type of thoughts might this lead for you?",
+			"options": [
+				{
+					"id": "explore_distinction_a_loss_negative_1",
+					"text": "My life is over/horrible because I have experienced a loss.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_a_loss_negative_2",
+					"text": "I want to work towards keeping certain things in my life.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "explore_distinction_a_loss_negative_3",
+					"text": "My life is worse than the lives of others.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_a_loss_negative_4",
+					"text": "Life is not worth living if you lose things you love.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_a_loss_negative_5",
+					"text": "I know what aspects of my life are important to me.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				}
+			]
+		},
+		{
+			"id": "explore_distinction_a_loss_positive",
+			"type": "multiSelect",
+			"minSelections": 1,
+			"randomizeOptions": false,
+			"text": "I want to keep certain aspects of my life. What type thoughts might this lead for you?",
+			"options": [
+				{
+					"id": "explore_distinction_a_loss_negative_1",
+					"text": "My life is over/horrible because I have experienced a loss.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_a_loss_negative_2",
+					"text": "I want to work towards keeping certain things in my life.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "explore_distinction_a_loss_negative_3",
+					"text": "My life is worse than the lives of others.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_a_loss_negative_4",
+					"text": "Life is not worth living if you lose things you love.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_a_loss_negative_5",
+					"text": "I know what aspects of my life are important to me.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				}
+			]
+		},
+		{
+			"id": "explore_distinction_an_unforseen_burden_negative",
+			"type": "multiSelect",
+			"minSelections": 1,
+			"randomizeOptions": false,
+			"text": "I should not have to deal with this. What type of thoughts might this lead for you?",
+			"options": [
+				{
+					"id": "explore_distinction_an_unforseen_burden_negative_1",
+					"text": "Being forced into a situation makes life horrible.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_an_unforseen_burden_negative_2",
+					"text": "I need to take efforts to prevent this in the future.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "explore_distinction_an_unforseen_burden_negative_3",
+					"text": "I′m not going to do anything about it because its unfair that I have to.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_an_unforseen_burden_negative_4",
+					"text": "I don′t want to live a life where I can′t choose what do.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_an_unforseen_burden_negative_5",
+					"text": "I don′t like what is happening, but I can handle it.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				}
+			]
+		},
+		{
+			"id": "explore_distinction_an_unforseen_burden_positive",
+			"type": "multiSelect",
+			"minSelections": 1,
+			"randomizeOptions": false,
+			"text": "I do not want to deal with this. What type of thoughts might this lead for you?",
+			"options": [
+				{
+					"id": "explore_distinction_an_unforseen_burden_negative_1",
+					"text": "Being forced into a situation makes life horrible.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_an_unforseen_burden_negative_2",
+					"text": "I need to take efforts to prevent this in the future.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "explore_distinction_an_unforseen_burden_negative_3",
+					"text": "I′m not going to do anything about it because its unfair that I have to.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_an_unforseen_burden_negative_4",
+					"text": "I don′t want to live a life where I can′t choose what do.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_an_unforseen_burden_negative_5",
+					"text": "I don′t like what is happening, but I can handle it.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				}
+			]
+		},
+		{
+			"id": "explore_distinction_disapproval_negative",
+			"type": "multiSelect",
+			"minSelections": 1,
+			"randomizeOptions": false,
+			"text": "I should be approved of by others. What type thoughts might this lead for you?",
+			"options": [
+				{
+					"id": "explore_distinction_disapproval_negative_1",
+					"text": "I am not a worthwhile person if others don′t approve of me.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_disapproval_negative_2",
+					"text": "I can chose to do things that earn the approval of others.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "explore_distinction_disapproval_negative_3",
+					"text": "They are worthless people for not approving of me.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_disapproval_negative_4",
+					"text": "I need to earn other′s approval at all costs.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_disapproval_negative_5",
+					"text": "I like being approved of, but its not the end of world if I′m not.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				}
+			]
+		},
+		{
+			"id": "explore_distinction_disapproval_positive",
+			"type": "multiSelect",
+			"minSelections": 1,
+			"randomizeOptions": false,
+			"text": "I want others to approve of me. What type thoughts might this lead for you?",
+			"options": [
+				{
+					"id": "explore_distinction_disapproval_negative_1",
+					"text": "I am not a worthwhile person if others don′t approve of me.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_disapproval_negative_2",
+					"text": "I can chose to do things that earn the approval of others.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "explore_distinction_disapproval_negative_3",
+					"text": "They are worthless people for not approving of me.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_disapproval_negative_4",
+					"text": "I need to earn other′s approval at all costs.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_disapproval_negative_5",
+					"text": "I like being approved of, but its not the end of world if I′m not.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				}
+			]
+		},
+		{
+			"id": "explore_distinction_rejection_negative",
+			"type": "multiSelect",
+			"minSelections": 1,
+			"randomizeOptions": false,
+			"text": "I should not have to face rejection. What type of thoughts might this lead for you?",
+			"options": [
+				{
+					"id": "explore_distinction_rejection_negative_1",
+					"text": "Other people have to accept my requests.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_rejection_negative_2",
+					"text": "While I am not thrilled to be rejected, I can tolerate it.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "explore_distinction_rejection_negative_3",
+					"text": "I am not a worthwhile person if I get rejected.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_rejection_negative_4",
+					"text": "The person/people who rejected me is/are worthless for doing so.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_rejection_negative_5",
+					"text": "I hope my request is accepted, but it is okay for others to decline it.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				}
+			]
+		},
+		{
+			"id": "explore_distinction_rejection_positive",
+			"type": "multiSelect",
+			"minSelections": 1,
+			"randomizeOptions": false,
+			"text": "I do not want to face rejection. What type of thoughts might this lead for you?",
+			"options": [
+				{
+					"id": "explore_distinction_rejection_negative_1",
+					"text": "Other people have to accept my requests.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_rejection_negative_2",
+					"text": "While I am not thrilled to be rejected, I can tolerate it.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "explore_distinction_rejection_negative_3",
+					"text": "I am not a worthwhile person if I get rejected.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_rejection_negative_4",
+					"text": "The person/people who rejected me is/are worthless for doing so.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_rejection_negative_5",
+					"text": "I hope my request is accepted, but it is okay for others to decline it.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				}
+			]
+		},
+		{
+			"id": "explore_distinction_insufficient_recognition_negative",
+			"type": "multiSelect",
+			"minSelections": 1,
+			"randomizeOptions": false,
+			"text": "People must recognize my contributions. What type of thoughts might this lead for you?",
+			"options": [
+				{
+					"id": "explore_distinction_insufficient_recognition_negative_1",
+					"text": "They are worthless people for not recognizing me.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_insufficient_recognition_negative_2",
+					"text": "Not everyone may understand or recognize my contributions, and that is okay.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "explore_distinction_insufficient_recognition_negative_3",
+					"text": "I am worthless and not deserving of recognition if I do not receive it.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_insufficient_recognition_negative_4",
+					"text": "My contributions were useless because they were not recognized.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_insufficient_recognition_negative_5",
+					"text": "If my contributions were not recognized, it does not mean that they or I were worthless.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				}
+			]
+		},
+		{
+			"id": "explore_distinction_insufficient_recognition_positive",
+			"type": "multiSelect",
+			"minSelections": 1,
+			"randomizeOptions": false,
+			"text": "I prefer that people recognize my contributions. What type of thoughts might this lead for you?",
+			"options": [
+				{
+					"id": "explore_distinction_insufficient_recognition_negative_1",
+					"text": "They are worthless people for not recognizing me.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_insufficient_recognition_negative_2",
+					"text": "Not everyone may understand or recognize my contributions, and that is okay.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "explore_distinction_insufficient_recognition_negative_3",
+					"text": "I am worthless and not deserving of recognition if I do not receive it.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_insufficient_recognition_negative_4",
+					"text": "My contributions were useless because they were not recognized.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_insufficient_recognition_negative_5",
+					"text": "If my contributions were not recognized, it does not mean that they or I were worthless.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				}
+			]
+		},
+		{
+			"id": "explore_distinction_lack_of_comfort_negative",
+			"type": "multiSelect",
+			"minSelections": 1,
+			"randomizeOptions": false,
+			"text": "Life must be comfortable. What type of thoughts might this lead for you?",
+			"options": [
+				{
+					"id": "explore_distinction_lack_of_comfort_negative_1",
+					"text": "If life is uncomfortable, it is entirely a bad experience.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_lack_of_comfort_negative_2",
+					"text": "I want to work towards a more comfortable life.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "explore_distinction_lack_of_comfort_negative_3",
+					"text": "If life is a struggle then it is not worth living.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_lack_of_comfort_negative_4",
+					"text": "If my life is not comfortable, it is so much worse than others.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_lack_of_comfort_negative_5",
+					"text": "If life is not comfortable right now, it does not mean life is entirely a bad experience.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				}
+			]
+		},
+		{
+			"id": "explore_distinction_lack_of_comfort_positive",
+			"type": "multiSelect",
+			"minSelections": 1,
+			"randomizeOptions": false,
+			"text": "I want life to be comfortable. What type of thoughts might this lead for you?",
+			"options": [
+				{
+					"id": "explore_distinction_lack_of_comfort_negative_1",
+					"text": "If life is uncomfortable, it is entirely a bad experience.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_lack_of_comfort_negative_2",
+					"text": "I want to work towards a more comfortable life.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "explore_distinction_lack_of_comfort_negative_3",
+					"text": "If life is a struggle then it is not worth living.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_lack_of_comfort_negative_4",
+					"text": "If my life is not comfortable, it is so much worse than others.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_lack_of_comfort_negative_5",
+					"text": "If life is not comfortable right now, it does not mean life is entirely a bad experience.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				}
+			]
+		},
+		{
+			"id": "explore_distinction_surplus_of_adversity_negative",
+			"type": "multiSelect",
+			"minSelections": 1,
+			"randomizeOptions": false,
+			"text": "Life should not be this difficult. What type of thoughts might lead for you?",
+			"options": [
+				{
+					"id": "explore_distinction_surplus_of_adversity_negative_1",
+					"text": "My life is horrible.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_surplus_of_adversity_negative_2",
+					"text": "I want to do something to change my life or the lives of others.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "explore_distinction_surplus_of_adversity_negative_3",
+					"text": "Life sucks, why live it?",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_surplus_of_adversity_negative_4",
+					"text": "I have a worthless life.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_surplus_of_adversity_negative_5",
+					"text": "I can tolerate this for now, but I should take steps to make changes.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				}
+			]
+		},
+		{
+			"id": "explore_distinction_surplus_of_adversity_positive",
+			"type": "multiSelect",
+			"minSelections": 1,
+			"randomizeOptions": false,
+			"text": "I do not want life to be this difficult. What type of thoughts might lead for you?",
+			"options": [
+				{
+					"id": "explore_distinction_surplus_of_adversity_negative_1",
+					"text": "My life is horrible.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_surplus_of_adversity_negative_2",
+					"text": "I want to do something to change my life or the lives of others.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "explore_distinction_surplus_of_adversity_negative_3",
+					"text": "Life sucks, why live it?",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_surplus_of_adversity_negative_4",
+					"text": "I have a worthless life.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "That's incorrect."
+				},
+				{
+					"id": "explore_distinction_surplus_of_adversity_negative_5",
+					"text": "I can tolerate this for now, but I should take steps to make changes.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				}
+			]
+		},
+		{
+			"id": "hold_health_flexible_attitudes",
+			"type": "informational",
+			"minSelections": 0,
+			"randomizeOptions": false,
+			"text": "We want to be able to hold healthy and flexible attitudes and beliefs that support us in moving towards our goals.",
+			"options": []
+		},
+		{
+			"id": "chose_different_answers",
+			"type": "informational",
+			"minSelections": 0,
+			"randomizeOptions": false,
+			"text": "Did you notice that you chose difference answers when changing the should/must to a want/prefer?",
+			"options": []
+		},
+		{
+			"id": "want_to_change_shoulds_and_musts",
+			"type": "informational",
+			"minSelections": 0,
+			"randomizeOptions": false,
+			"text": "Do you want to change the \"should\"s and \"must\"s to \"wants\" and \"prefers\" to help view life's problems in a healthy and flexible manner?",
+			"options": []
+		},
+		{
+			"id": "want_to_make_right_decisions",
+			"type": "informational",
+			"minSelections": 0,
+			"randomizeOptions": false,
+			"text": "We all want to do well, we want to be able to make the right decisions and the have the approval of others. At same time, not doing so does not transform you into less of a person or a worthless person.",
+			"options": []
+		},
+		{
+			"id": "want_others_to_treat_us_well",
+			"type": "informational",
+			"minSelections": 0,
+			"randomizeOptions": false,
+			"text": "We all want others to treat us well, others to do the right thing, and to feel recognized. At same time it does not make us or others less of a person or worthless for failing to do so.",
+			"options": []
+		},
+		{
+			"id": "non_binary_good_bad",
+			"type": "informational",
+			"minSelections": 0,
+			"randomizeOptions": false,
+			"text": "In truth, humans are neither good nor bad. We are just human after all, meaning we are fallible, imperfect, and guaranteed to make mistakes. If you think about it, we are born a near blank slate, we choose to do the things we do because our environment teaches us what behaviors are the \"right\" ones to do. If a person steals, it may be because their world has taught them that is the only way get ahead and/or survive, and that other options for survival do not exist. Another person may have gone to college simply because they think that it is the next step in their life path despite being unsure as to why they are going. A terrorist may chose to wage war on democracy with the belief democracy corrupts people without ever experiencing that life themselves. In the end, we are organic lifeforms trying to make adaptive decisions in a complex environment.",
+			"options": []
+		},
+		{
+			"id": "life_is_complicated",
+			"type": "informational",
+			"minSelections": 0,
+			"randomizeOptions": false,
+			"text": "Although many of us prefer for life to be uncomplicated, comfortable, fun, exciting, fair, and just, it does not mean life will be that way. We are constantly waging war against our finite organic bodies that require the right conditions to survive. In more modern times survival has become easier to achieve, but we still cannot make the universe a fair place that cares about us. And yet, despite all this, even if there are dark times that are unjust, uncomfortable, boring, unfair, life can continue to be tolerable. We can cope with our negative experiences.",
+			"options": []
+		},
+		{
+			"id": "wants_desires",
+			"type": "multiSelect",
+			"minSelections": 1,
+			"randomizeOptions": false,
+			"text": "Knowing that we have certain wants or desires in life, and knowing the universe doesn't care, how can we think about negative occurrences, that we are guaranteed to face, in a healthier more adaptive way?",
+			"options": [
+				{
+					"id": "not_end_of_world",
+					"text": "Its not the end of the world when something I don′t want to happen happens.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "uncomfortable_bear_it",
+					"text": "Even though something is uncomfortable I am capable of bearing it.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "pain_and_negative_emotions",
+					"text": "Pain and negative emotions should be avoided at all costs.",
+					"opposite": null,
+					"isCorrect": false,
+					"validationMessage": "Pain and negative emotions are an unavoidable part of life. They serve an important purpose. They can both motivate us to action and help us understand what in our environment needs attention. Attempting to avoid pain or negative emotions can cause more distress than the emotions/pain itself. Our emotions are often fleeting and tolerable. Pain itself is not that damaging, as the mind and body are designed with the ability to cope with pain. The stress over attempting something impossible is actually more detrimental to our health. Think about going to the doctor to get a shot. The shot only hurts for just a second or two, but many people experience hours of distress on their way to the doctor. The shot does much less damage to your body than being in a stressful state for an extended period of time."
+				},
+				{
+					"id": "avoid_mistakes",
+					"text": "Its best to avoid mistakes.",
+					"opposite": null,
+					"isCorrect": false,
+					"validationMessage": "People often conceptualize mistakes as failures or indicators of their poor performance. The human mind learns and adapts to the environment as needed and is equipped to learn from mistakes. If you try a new game, make a ton mistakes, take a break, come back it, your brain would have already adapted. Mistakes are unavoidable. We are not born with the ability to perform everything necessary to thrive and the capability to function at 100% at all times. This makes mistakes a part life that can bring about significantly faster learning. Stressing over mistakes and attempting to avoiding them is more detrimental to one′s health than making a mistake and simply moving on. It may not feel good, but it is exactly why mistakes are helpful."
+				},
+				{
+					"id": "negative_characteristics",
+					"text": "People′s negative characteristics don′t make them entirely bad people, myself or another.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "important_to_only_feel_positive",
+					"text": "Its important to only feel positive emotions to enjoy life.",
+					"opposite": null,
+					"isCorrect": false,
+					"validationMessage": "Have you ever enjoyed a sad song? Not all negative emotions are necessarily unpleasant. Emotions, positive and negative, serve as way to communicate to others without language and to motivate us to action. Negative emotions are often highly distressing because they are meant to motivate us to take important actions. Just like we learned earlier, negative emotions can lead to adaptive responses and actually benefit your life. If you attempt to avoid feeling the emotions that life has to offer, you may experience distress from the fear of emotions. This fear/stress over our emotions can become a greater threat to our health than emotions themselves, or add extra burden to an already tough situation. It is in our best interest to lean into our negative emotions as to not further complicate our already complicated lives."
+				},
+				{
+					"id": "facing_pain_and_negative_emotions",
+					"text": "Facing pain and negative emotions is necessary for growth; I can stand them.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "mistakes_dont_make_someone_worthless",
+					"text": "Mistakes don′t make someone worthless, myself or otherwise.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "people_not_bad_good",
+					"text": "People are not bad or good, just neutral people trying to survive.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				},
+				{
+					"id": "all_people_do_good_bad",
+					"text": "There are good people and bad people.",
+					"opposite": null,
+					"isCorrect": false,
+					"validationMessage": "People are born neither good or bad, but simply neutral. We make judgements on what is \"good\" or \"bad\" based on what our culture deems to be beneficial and detrimental. Thinking of people as good/bad leads one to make snap judgements if someone is worthwhile or worthless. We cannot truly quantify human worth. We can not predict desired and/or undesired contributions of an individual at any point in their life. Think of yourself, has there ever been a moment when you did something that you may have regret, or performed an action that was undesirable by others? Chances are, you have made few mistakes, just like the rest of us. No matter the number of your mistakes, it does not mean you are no longer a valuable person. You may use what you've learned from those actions to help many in the future, and thus we do not know the value of what you may do, thus it pointless judge someone as \"good\" or \"bad\". Even if there is a person in your life who has brought upon undesirable experiences in your life, thinking of them as \"bad\" is not actually more beneficial to you than thinking of them as people who do not contribute desirable changes to your life. The distress and time spent condemning the person as \"bad\" could be a further negative impact on your life on top of what has already been done. It may be in your best interest to devote your time to continuing to live a higher quality life rather than waste time condemning those who do not contribute to it."
+				},
+				{
+					"id": "discomfort_is_unbearable",
+					"text": "Discomfort is unbearable and needs to be avoided.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": "Many of us go to great lengths avoid discomfort, such as being in a novel situation that we perceive as stressful or avoiding situations where we may feel rejected. The same situations are the ones that have the greatest potential to better our lives. Discomfort is what we typically feel when we do not have the right tools/experience for the a given situation, which means we stand to gain the most during said situation. If you face discomfort, new skills, roles, and/or relationships are bound to enter your life. Discomfort provides us with the opportunity make growth short period time. Such walking into gym for first time, it is uncomfortable to work out in front of many strangers, but can lead you to be more focused on your work-out and improve overall health. Also, discomfort is what we experience when the cognitive gates of neuroplasticity are opening up. There can be no growth without it."
+				},
+				{
+					"id": "discomfort_is_part_of_life",
+					"text": "Discomfort is a part of life and I can stand that.",
+					"opposite": null,
+					"isCorrect": true,
+					"validationMessage": null
+				}
+			]
+		},
+		{
+			"id": "wants_desires_complete",
+			"type": "informational",
+			"minSelections": 0,
+			"randomizeOptions": false,
+			"text": "Yes! These are the attitudes that will likely make all of your struggles and challenges easier to face and cope with, and help you move towards your personal goals.",
+			"options": []
+		},
+		{
+			"id": "positive_framing_exercise",
+			"type": "informational",
+			"minSelections": 0,
+			"randomizeOptions": false,
+			"text": "Lets see how we can tie these rational attitudes together with our negative events and disturbed unhealthy emotions to produce adaptive, healthy, productive emotions!",
+			"options": []
+		},
+		{
+			"id": "healthy_attitude_adoption_transform",
+			"type": "informational",
+			"minSelections": 0,
+			"randomizeOptions": false,
+			"text": "Which healthy attitude can we adopt to transform our unhealthy negative emotion into an adaptive, healthy emotion?",
+			"options": []
+		},
+		{
+			"id": "display_adaptive_attitudes",
+			"type": "informational",
+			"minSelections": 0,
+			"randomizeOptions": false,
+			"text": "Do you think you can utilize this way of thinking to experience a more healthy negative emotion, and/or even turn it into an adaptive by thinking...",
+			"options": []
+		},
+		{
+			"id": "try_other_scenarios",
+			"type": "informational",
+			"minSelections": 0,
+			"randomizeOptions": false,
+			"text": "Try running through this app for other scenarios, or alternatively we can talk about long term results of upholding these values.",
+			"options": []
+		},
+		{
+			"id": "long_term_consquences",
+			"type": "informational",
+			"minSelections": 0,
+			"randomizeOptions": false,
+			"text": "The long-term consequences of adapting such flexible thinking eventually leads to unconditional acceptance of yourself, others, and life. Just remember, acceptance does not mean approval. For example, you may accept there is social injustice, but that does not prevent you from working to change it without approving of it.",
+			"options": []
+		},
+		{
+			"id": "attitudes_grow",
+			"type": "informational",
+			"minSelections": 0,
+			"randomizeOptions": false,
+			"text": "As an example of how these attitudes can grow into unconditional acceptance: lets imagine if you stopped thinking of yourself as a failure/loser/worthless when you made a mistake, you will eventually be okay with your own mistakes, and thus be okay with who you truly are as a person. If you kept forgetting your keys at home, instead of being angry with yourself you can accept that you are often forgetful. Now that you know and accept this part of yourself it becomes easier to work towards a solution instead of being distressed over your faults, such as setting a sign on the door or having a spare.",
+			"options": []
+		},
+		{
+			"id": "applies_to_others",
+			"type": "informational",
+			"minSelections": 0,
+			"randomizeOptions": false,
+			"text": "The same applies to others and the world we live in.",
+			"options": []
+		},
+		{
+			"id": "others_are_fallible",
+			"type": "informational",
+			"minSelections": 0,
+			"randomizeOptions": false,
+			"text": "As soon as you accept others are just fallible humans, you can spend less time condemning people for their faults and either work around them or help them move past them. Soon as you accept that the world will be challenging and often unpleasant you can stop being dragged down by unexpected discomfort and focus on moving past the challenges/discomfort to get the parts of life you really enjoy. At some point you may not even notice the discomfort as you expect it to be there. (Just remember acceptance is not the equivalent of approval of what is going on.)",
+			"options": []
+		},
+		{
+			"id": "explore_more_connections",
+			"type": "informational",
+			"minSelections": 0,
+			"randomizeOptions": false,
+			"text": "Now you can explore more connections between the problems you will face, the emotions you can experience, and develop the right attitudes that lead to adaptive and healthy negative emotions.",
+			"options": []
+		}
+	]
+}
